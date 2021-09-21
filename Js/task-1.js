@@ -29,5 +29,5 @@ user.hobby = "skydiving";
 user.premium = "false";
 
 for (const key in user) {
-  console.log(`${key}:${user[key]}`);
+  console.log(key + ":", user[key]);
 }
